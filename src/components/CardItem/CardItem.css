@@ -1,0 +1,17 @@
+.card {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  -webkit-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.selected {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
